@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Lato', sans-serif;
+}
+/* Hide scrollbar for Chrome, Safari and Opera */
+body::-webkit-scrollbar {
+    display: none;
+}
+  
+  /* Hide scrollbar for IE, Edge and Firefox */
+body {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+.navbar-nav {
+    gap: 40px;
+}
+.shopnow-btn {
+    color: #FFFFFF;
+    padding: 5px 20px !important;
+    background: #80B321;
+    border-radius: 5px;
+}
+.banner-image1 {
+    height: 100vh;
+    background-image: url(/assets/images/himaz_herbal_banner.png);
+    background-size: cover;
+}
+.banner-image2 {
+    height: 100vh;
+    background-image: url(/assets/images/himaz_it_banner.png);
+    background-size: cover;
+}
+.banner-image3 {
+    height: 100vh;
+    background-image: url(/assets/images/himaz_food_banner.png);
+    background-size: cover;
+}
+.banner-image4 {
+    height: 100vh;
+    background-image: url(/assets/images/himaz_consultancy_banner.png);
+    background-size: cover;
+}
+/* Navbar ends here */
+
+.content {
+    margin-left: 42px;
+}
+.banner-main-heading {
+    font-weight: 500;
+    font-size: 90px;
+    color: #80B321;
+
+}
+.banner-sub-heading {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    color: #629741;
+}
+.banner-theme-name {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    color: #1D1D1B;
+}
+.banner-para {
+    position: absolute;
+    width: 356px;
+    left: 162px;
+    top: 510px;
+    margin-top: 50px;
+    width: 356px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #1D1D1B;
+}
+
+.banner-main-heading2 {
+    font-weight: 500;
+    font-size: 90px;
+    color: #3281B5;
+}
+.banner-sub-heading2 {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    color: #3281B5;
+}
+
+.banner-main-heading3 {
+    font-weight: 500;
+    font-size: 90px;
+    color: #B53A32;
+}
+.banner-sub-heading3 {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    color: #B53A32;
+}
+
+.banner-main-heading4 {
+    font-weight: 500;
+    font-size: 90px;
+    color: #70419F;
+}
+.banner-sub-heading4 {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    color: #70419F;
+}
+
+@media screen and (max-width: 992px) {
+    .navbar-nav {
+        gap: 0;
+    }
+}
+
+
+
+/* .banner-image {
+    width: 100vw;
+    object-fit: contain;
+}
+.carousel-item-div {
+    width: 100%;
+    height: 100vh;
+}
+.slick-dots {
+	display: flex;
+	justify-content: center;
+	margin: 0;
+	padding: 1rem 0;
+	
+	list-style-type: none;
+}
+button {
+	display: block;
+	width: 0.5rem;
+	height: 0.5rem;
+	padding: 0;
+	border: none;
+	border-radius: 100%;
+	background-color: orange;
+	text-indent: -9999px;
+} */
