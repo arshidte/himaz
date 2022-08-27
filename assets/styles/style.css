@@ -27,22 +27,22 @@ body {
 }
 .banner-image1 {
     height: 100vh;
-    background-image: url(/assets/images/himaz_herbal_banner.png);
+    background-image: url(./assets/images/himaz_herbal_banner.png);
     background-size: cover;
 }
 .banner-image2 {
     height: 100vh;
-    background-image: url(/assets/images/himaz_it_banner.png);
+    background-image: url(./assets/images/himaz_it_banner.png);
     background-size: cover;
 }
 .banner-image3 {
     height: 100vh;
-    background-image: url(/assets/images/himaz_food_banner.png);
+    background-image: url(./assets/images/himaz_food_banner.png);
     background-size: cover;
 }
 .banner-image4 {
     height: 100vh;
-    background-image: url(/assets/images/himaz_consultancy_banner.png);
+    background-image: url(./assets/images/himaz_consultancy_banner.png);
     background-size: cover;
 }
 /* Navbar ends here */
